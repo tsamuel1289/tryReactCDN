@@ -1,7 +1,7 @@
 
 const Link = ReactRouterDOM.Link;
 const Route = ReactRouterDOM.Route;
-import Home from 'Home';
+
 
 const AppComponent = () => {
     return <div>
