@@ -9,12 +9,12 @@ const AppComponent = () => {
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/login">Login</Link></li>
-            <li><Link to="/register">Register</Link></li>
+            <li><Link to="/contact">Contacto</Link></li>
           </ul>
 
           <Route path="/" exact component={Home} />
           <Route path="/login" component={Login} />
-          <Route path="/register" component={Register} />
+          <Route path="/contact" component={Contact} />
 
         </ReactRouterDOM.HashRouter>
 
@@ -24,7 +24,6 @@ const AppComponent = () => {
 
         
         const Login = () => <h1>Login</h1>
-        const Register = () => <h1>Register 2</h1>
 
 
 ReactDOM.render(<AppComponent/>, document.getElementById('root'));
