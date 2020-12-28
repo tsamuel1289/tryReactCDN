@@ -1,3 +1,39 @@
-h1 {
-    color: red;
+
+.form-content {
+    color:  #1b1919;
+    background-color:white;
+    max-width: 1024px;
+    margin: auto;
+    padding: 15px;
 }
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0, .3);
+    border-radius: 15px;
+}
+.contact-form {
+    margin: auto;
+}
+.contact-info {
+    background-color:black;
+    padding: 15px;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0, .3);
+}
+
+
+
+@media (max-width: 700px){
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .contact-info {
+        border-radius: 0 0 15px 15px;
+        box-shadow: 0 0 5px 0 rgb(0, 0, 0, .3);
+
+    }
+}
+
+/* voy por 22:19*/
